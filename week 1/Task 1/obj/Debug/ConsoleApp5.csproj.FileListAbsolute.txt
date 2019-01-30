@@ -4,3 +4,10 @@ C:\Users\profa\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
 C:\Users\profa\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
 C:\Users\profa\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.exe
 C:\Users\profa\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
+C:\Users\profa\Desktop\KBTU\1-2\PP2\week 1\Task 1\bin\Debug\ConsoleApp5.exe.config
+C:\Users\profa\Desktop\KBTU\1-2\PP2\week 1\Task 1\bin\Debug\ConsoleApp5.exe
+C:\Users\profa\Desktop\KBTU\1-2\PP2\week 1\Task 1\bin\Debug\ConsoleApp5.pdb
+C:\Users\profa\Desktop\KBTU\1-2\PP2\week 1\Task 1\obj\Debug\ConsoleApp5.csprojAssemblyReference.cache
+C:\Users\profa\Desktop\KBTU\1-2\PP2\week 1\Task 1\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\profa\Desktop\KBTU\1-2\PP2\week 1\Task 1\obj\Debug\ConsoleApp5.exe
+C:\Users\profa\Desktop\KBTU\1-2\PP2\week 1\Task 1\obj\Debug\ConsoleApp5.pdb
