@@ -16,10 +16,6 @@ namespace Task_4
             string targetPath = @"C:\Users\profa\Desktop\KBTU\1-2\PP2\week 2\Task 4\output";
             string sourceFile = Path.Combine(sourcePath, filename);
             string destFile = Path.Combine(targetPath, filename);
-            if(!Directory.Exists(targetPath))
-            {
-                Directory.CreateDirectory(targetPath);
-            }
             File.Create(sourcePath + @"\" + filename).Dispose();
             Console.WriteLine("Press SPACE to copy the file");
             ConsoleKeyInfo pressedKey = Console.ReadKey();
