@@ -126,21 +126,7 @@ namespace Task1
                         if (currentfs.GetType() == typeof(FileInfo))
                         {
                             string sourcefile = currentfs.FullName;
-                            int ind = 0;
-                            string formFile = null;
-                            for (int i = 0; i < sourcefile.Length; i++)
-                            {
-                                if (sourcefile[i] == '.')
-                                {
-                                    ind = i;
-                                    break;
-                                }
-                            }
-                            for (int i = ind; i < sourcefile.Length; i++)
-                            {
-                                formFile += sourcefile[i];
-                            }
-                            string destfile = Path.Combine(path1, name + formFile);
+                            string destfile = path1 + @"\" + name;
                             File.Move(sourcefile, destfile);
                         }
                         else
