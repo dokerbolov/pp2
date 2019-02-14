@@ -10,16 +10,16 @@ namespace ConsoleApp8
     {
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
-            string[,] a = new string[n, n];
-            for (int i=0;i<n;i++)
+            int n = Convert.ToInt32(Console.ReadLine()); // it`s  reading the variable "n" 
+            string[,] a = new string[n, n]; // creating two-dimesional array with the lengthes "n" that called "a"
+            for (int i=0;i<n;i++) // loop from "0" to "n"
             {
-                for (int j=0;j<=i;j++)
+                for (int j=0;j<=i;j++) // second loop from "0" to "i"
                 {
-                    a[i, j] = "[*]";
-                    Console.Write(a[i, j]);
+                    a[i, j] = "[*]"; // it`s saving in array at the cordinate [i,j] symbol "*"
+                    Console.Write(a[i, j]); // printing cordinate
                 }
-                Console.WriteLine();
+                Console.WriteLine(); // scapes one line down
             }
             
         }
