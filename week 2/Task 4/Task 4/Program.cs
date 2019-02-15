@@ -23,7 +23,7 @@ namespace Task_4
             {
                 File.Copy(sourceFile, destFile); // copy file of combined file to the destination
             }
-            Console.WriteLine("Press Backspace to copy the file"); // writing to the console instrunction
+            Console.WriteLine("Press Backspace to delete the file"); // writing to the console instrunction
             ConsoleKeyInfo pressedKey2 = Console.ReadKey(); //reading the key, that will be pressed on keyboard
             if (pressedKey2.Key == ConsoleKey.Backspace)  // if this activity wil lbe equal to the "Backspace" then do delete
             {

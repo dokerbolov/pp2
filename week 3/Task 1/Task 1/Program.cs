@@ -56,10 +56,6 @@ namespace Task1
             }
             for (int i = 0, k = 0; i < fs.Length; i++)
             {
-                if (ok == false && fs[i].Name[0] == '.')
-                {
-                    continue;
-                }
                 Color(fs[i], k);
                 Console.WriteLine(fs[i].Name);
                 k++;
