@@ -102,15 +102,15 @@ namespace Task1
                         path = directory.Parent.FullName;
                         break;
                     case ConsoleKey.Delete:
-                        if (currentfs.GetType() == typeof(DirectoryInfo))
+                        if(currentfs.GetType() == typeof(DirectoryInfo))
                         {
                             string path12 = currentfs.FullName;
                             Directory.Delete(path12, true);
                         }
                         else
                         {
-                            string pathFile = currentfs.FullName;
-                            File.Delete(pathFile);
+                            string pathfile = currentfs.FullName;
+                            File.Delete(pathfile);
                         }
                         break;
                     case ConsoleKey.F4:
